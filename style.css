@@ -10,6 +10,7 @@
 * {
     box-sizing: border-box;
     font-family: 'Comfortaa';
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -62,6 +63,7 @@ header {
 .description {
     padding: 1.5rem 3rem;
     font-size: 1.5rem;
+    text-align: justify;
 }
 .container {
     display: flex;
@@ -268,6 +270,11 @@ a {
     .rellenable {
         flex-direction: column;
         padding: 0 1.5rem;
+    }
+
+    .rellenable .contact {
+        width: 100%;
+        text-align: justify;
     }
 
     .card .card-inner .card-front {
